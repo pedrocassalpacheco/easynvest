@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{681CB7FB-8693-4A16-AA85-6B6F8AC3D8D8}|SwaggerApp">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="appsettings.json" Line="9" Column="27" />
+      <File FileName="Startup.cs" />
+      <File FileName="Models/DatabaseSettings.cs" />
+      <File FileName="Data/PrimeNumbers.cs" />
+      <File FileName="Data/SampleContext.cs" />
+      <File FileName="Data/SeedData.cs" />
+      <File FileName="Models/Fruit.cs" />
+      <File FileName="Models/Prime.cs" />
+      <File FileName="Controllers/FruitsController.cs" />
+      <File FileName="Controllers/PeopleController.cs" />
+      <File FileName="Controllers/PrimeController.cs" />
+      <File FileName="Services/PrimeServices.cs" />
+      <File FileName="Program.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TracerBreaker" expanded="True">
+            <Node name="TracerBreaker" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TracerBreaker PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
