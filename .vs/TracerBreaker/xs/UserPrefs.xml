@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{681CB7FB-8693-4A16-AA85-6B6F8AC3D8D8}|SwaggerApp">
-  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
     <Files>
       <File FileName="appsettings.json" Line="9" Column="27" />
-      <File FileName="Startup.cs" />
+      <File FileName="Startup.cs" Line="35" Column="1" />
       <File FileName="Models/DatabaseSettings.cs" />
       <File FileName="Data/PrimeNumbers.cs" />
       <File FileName="Data/SampleContext.cs" />
       <File FileName="Data/SeedData.cs" />
       <File FileName="Models/Fruit.cs" />
-      <File FileName="Models/Prime.cs" />
+      <File FileName="Models/Prime.cs" Line="11" Column="1" />
       <File FileName="Controllers/FruitsController.cs" />
       <File FileName="Controllers/PeopleController.cs" />
-      <File FileName="Controllers/PrimeController.cs" />
+      <File FileName="Controllers/PrimeController.cs" Line="19" Column="1" />
       <File FileName="Services/PrimeServices.cs" />
       <File FileName="Program.cs" Line="16" Column="1" />
+      <File FileName="Dockerfile" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,7 +29,7 @@
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
+              <Node name="Dockerfile" selected="True" />
             </Node>
           </Node>
         </State>
@@ -39,7 +40,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.TracerBreaker PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/pedropacheco/Projects/Examples/TracerBreaker/Controllers/PrimeController.cs" relfile="Controllers/PrimeController.cs" line="19" column="1" />
+      <Breakpoint file="/Users/pedropacheco/Projects/Examples/TracerBreaker/Controllers/PrimeController.cs" relfile="Controllers/PrimeController.cs" line="26" column="1" />
+      <Breakpoint file="/Users/pedropacheco/Projects/Examples/TracerBreaker/Controllers/PrimeController.cs" relfile="Controllers/PrimeController.cs" line="32" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

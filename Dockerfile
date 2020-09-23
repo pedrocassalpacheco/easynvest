@@ -9,9 +9,10 @@ RUN dotnet restore TracerBreaker.csproj
 RUN dotnet build -c Release -o /app
 FROM build AS publish
 WORKDIR /src
-RUN dotnet add TracerBreaker.csproj package Instana.Tracing.Core.Rewriter.Alpine --version 1.1.1
-RUN dotnet add TracerBreaker.csproj package Instana.Tracing.Core --version 1.1.56
+RUN dotnet add TracerBreaker.csproj package Instana.Tracing.Core.Rewriter.Alpine 
+RUN dotnet add TracerBreaker.csproj package Instana.Tracing.Core
 RUN dotnet publish -c Release -o out
+COPY ./Dockerfile /app
 ENV CORECLR_ENABLE_PROFILING=1
 ENV CORECLR_PROFILER={cf0d821e-299b-5307-a3d8-b283c03916dd}
 ENV CORECLR_PROFILER_PATH=/app/instana_tracing/CoreProfiler.so
